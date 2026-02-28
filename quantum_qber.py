@@ -5,10 +5,6 @@ from qiskit.providers.basic_provider import BasicProvider
 from qiskit.visualization import plot_histogram
 
 def run_hackathon_project():
-    """
-    Consolidated No-Cloning Theorem Simulation for Hackathon Stage 1.
-    Demonstrates how eavesdropping (cloning) creates detectable entanglement.
-    """
     
     # --- 1. INITIALIZATION ---
     # We use BasicProvider to ensure the code runs on any machine without extra installs.
@@ -81,8 +77,7 @@ def run_hackathon_project():
     ax2.legend()
 
     plt.tight_layout()
-    
-    # Automatically save the diagram for Slide 3.
+
     qc.draw('mpl', filename='cloning_circuit.png')
     print("Circuit diagram saved as 'cloning_circuit.png' for Slide 3.")
     
@@ -90,3 +85,4 @@ def run_hackathon_project():
 
 if __name__ == "__main__":
     run_hackathon_project()
+
