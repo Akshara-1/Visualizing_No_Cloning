@@ -1,5 +1,3 @@
-# Full code submission for Qiskit Hackathon - Stage 1 Evaluation
-# Based on No-Cloning Theorem Implementation Guidelines
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -107,3 +105,4 @@ def run_no_cloning_experiment():
 
 if __name__ == "__main__":
     run_no_cloning_experiment()
+
